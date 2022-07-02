@@ -1,0 +1,19 @@
+{
+    "name": "Chrome Demo",
+    "description": "Some Cool Description",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "16": "fs_16.png",
+        "32": "fs_32.png"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "16": "fs_16.png"
+    },
+    "permissions": [ "storage"]
+
+}

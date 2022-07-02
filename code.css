@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Open+Sans:wght@300&family=Poppins&display=swap');
+
+/* main container */
+.container {
+    width: 350px;
+    height: 652px;
+    margin: auto;
+}
+
+.log {
+    border-bottom: 2px solid #f9ba63;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    /* justify-content; */
+    /* padding-bottom: 7px; */
+}
+
+.first {
+    width: 85px;
+    height: 27px;
+    margin-left: 130px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(24, 31, 41, 0.85);
+}
+
+.arrow{
+    width: 7px;
+    height: 13px;
+}
